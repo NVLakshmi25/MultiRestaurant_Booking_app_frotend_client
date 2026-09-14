@@ -11,7 +11,7 @@ import OwnerDashboard from "./pages/owner/OwnerDashboard.tsx";
 import AdminDashboard from "./pages/admin/AdminDashboard.tsx";
 import UserManagement from "./pages/admin/UserManagement.tsx";
 
-import ProtectedRoute from "./components/ProtectedRoute.tsx";
+import ProtectedRoute from "./Components/ProtectedRoute.tsx"
 
 import { Toaster } from "react-hot-toast";
 
