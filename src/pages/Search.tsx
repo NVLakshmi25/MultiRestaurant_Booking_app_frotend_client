@@ -9,10 +9,10 @@ import {
     X,
 } from "lucide-react";
 
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
-import RestaurantCard from "../components/RestaurantCard";
-import AuthModal from "../components/AuthModal";
+import Navbar from "../Components/Navbar";
+import Footer from "../Components/Footer";
+import RestaurantCard from "../Components/RestaurantCard";
+import AuthModal from "../Components/AuthModal";
 
 import api from "../lib/api";
 import toast from "react-hot-toast";

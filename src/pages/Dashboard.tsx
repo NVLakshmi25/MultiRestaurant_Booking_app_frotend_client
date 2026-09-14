@@ -12,10 +12,10 @@ import toast from "react-hot-toast";
 
 import { useAppContext } from "../context/AppContext";
 
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
-import AuthModal from "../components/AuthModal";
-import RestaurantCard from "../components/RestaurantCard";
+import Navbar from "../Components/Navbar";
+import Footer from "../Components/Footer";
+import AuthModal from "../Components/AuthModal";
+import RestaurantCard from "../Components/RestaurantCard";
 
 import type { Booking, Restaurant } from "../types";
 import api from "../lib/api";

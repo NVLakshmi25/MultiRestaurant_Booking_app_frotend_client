@@ -5,15 +5,15 @@ import toast from "react-hot-toast";
 
 import { useAppContext } from "../context/AppContext";
 
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
-import AuthModal from "../components/AuthModal";
-import Loader from "../components/Loader";
+import Navbar from "../Components/Navbar";
+import Footer from "../Components/Footer";
+import AuthModal from "../Components/AuthModal";
+import Loader from "../Components/Loader";
 
-import RestaurantHero from "../components/restaurant/RestaurantHero";
-import RestaurantInfo from "../components/restaurant/RestaurantInfo";
-import RestaurantReviews from "../components/restaurant/RestaurantReviews";
-import BookingWidget from "../components/restaurant/BookingWidget";
+import RestaurantHero from "../Components/restaurant/RestaurantHero";
+import RestaurantInfo from "../Components/restaurant/RestaurantInfo";
+import RestaurantReviews from "../Components/restaurant/RestaurantReviews";
+import BookingWidget from "../Components/restaurant/BookingWidget";
 
 import type { Restaurant, Availability } from "../types";
 import api from "../lib/api";

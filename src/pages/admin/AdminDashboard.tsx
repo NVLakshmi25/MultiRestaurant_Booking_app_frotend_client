@@ -15,12 +15,12 @@ import toast from "react-hot-toast";
 
 import { useNavigate } from "react-router-dom";
 
-import Navbar from "../../components/Navbar";
-import Footer from "../../components/Footer";
-import Loader from "../../components/Loader";
+import Navbar from "../../Components/Navbar";
+import Footer from "../../Components/Footer";
+import Loader from "../../Components/Loader";
 
-import AdminStats from "../../components/admin/AdminStats";
-import AdminApprovals from "../../components/admin/AdminApprovals";
+import AdminStats from "../../Components/admin/AdminStats";
+import AdminApprovals from "../../Components/admin/AdminApprovals";
 
 import { useAppContext } from "../../context/AppContext";
 import api from "../../lib/api";

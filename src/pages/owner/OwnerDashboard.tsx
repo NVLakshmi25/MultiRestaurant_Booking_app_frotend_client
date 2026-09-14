@@ -7,15 +7,15 @@ import toast from "react-hot-toast";
 
 import { useAppContext } from "../../context/AppContext";
 
-import Navbar from "../../components/Navbar";
-import Footer from "../../components/Footer";
-import Loader from "../../components/Loader";
+import Navbar from "../../Components/Navbar";
+import Footer from "../../Components/Footer";
+import Loader from "../../Components/Loader";
 
-import RestaurantWizard from "../../components/owner/RestaurantWizard";
-import PendingApproval from "../../components/owner/PendingApproval";
-import RequestRejected from "../../components/owner/RequestRejected";
-import OwnerBookings from "../../components/owner/OwnerBookings";
-import OwnerProfileDetails from "../../components/owner/OwnerProfileDetails";
+import RestaurantWizard from "../../Components/owner/RestaurantWizard";
+import PendingApproval from "../../Components/owner/PendingApproval";
+import RequestRejected from "../../Components/owner/RequestRejected";
+import OwnerBookings from "../../Components/owner/OwnerBookings";
+import OwnerProfileDetails from "../../Components/owner/OwnerProfileDetails";
 
 import type { Booking, Restaurant } from "../../types";
 import api from "../../lib/api";

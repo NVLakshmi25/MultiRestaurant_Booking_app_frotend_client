@@ -1,14 +1,14 @@
 import { useEffect, useState } from "react";
 
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
-import AuthModal from "../components/AuthModal";
+import Navbar from "../Components/Navbar";
+import Footer from "../Components/Footer";
+import AuthModal from "../Components/AuthModal";
 
-import Hero from "../components/home/Hero";
-import CuisineBrowse from "../components/home/CuisineBrowse";
-import TrendingRow from "../components/home/TrendingRow";
-import MembershipSection from "../components/home/MembershipSection";
-import NewsletterCTA from "../components/home/NewsletterCTA";
+import Hero from "../Components/home/Hero";
+import CuisineBrowse from "../Components/home/CuisineBrowse";
+import TrendingRow from "../Components/home/TrendingRow";
+import MembershipSection from "../Components/home/MembershipSection";
+import NewsletterCTA from "../Components/home/NewsletterCTA";
 
 import type { Restaurant } from "../types";
 import api from "../lib/api";
