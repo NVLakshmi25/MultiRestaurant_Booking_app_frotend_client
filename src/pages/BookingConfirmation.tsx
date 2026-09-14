@@ -12,13 +12,13 @@ import toast from "react-hot-toast";
 
 import { useAppContext } from "../context/AppContext";
 
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
-import Loader from "../components/Loader";
+import Navbar from "../Components/Navbar";
+import Footer from "../Components/Footer";
+import Loader from "../Components/Loader";
 
-import BookingSuccess from "../components/booking/BookingSuccess";
-import BookingSummary from "../components/booking/BookingSummary";
-import BookingForm from "../components/booking/BookingForm";
+import BookingSuccess from "../Components/booking/BookingSuccess";
+import BookingSummary from "../Components/booking/BookingSummary";
+import BookingForm from "../Components/booking/BookingForm";
 
 import type { Restaurant, Booking } from "../types";
 import api from "../lib/api";
